@@ -2,12 +2,11 @@ import React from 'react';
 
 // SubNav will hold the links for the SubNav and animations.
 
-function SubNav() {
-
+function SubNav(props) {
+    // const sub = props.
     return(
         <>
-            <i class="fab fa-apple"></i>
-            <div> Hello Universe! </div>
+            <div> SubNav! </div>
         </>
     )
 }
