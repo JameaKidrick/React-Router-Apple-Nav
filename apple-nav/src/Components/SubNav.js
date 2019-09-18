@@ -1,6 +1,7 @@
 import React from 'react';
 import { Data } from './Data'
 import Home from './Subcomponents/Home'
+import NavParent from './NavParent'
 
 // SubNav will hold the links for the SubNav and animations.
 
@@ -10,6 +11,7 @@ function SubNav(props) {
     return(
         <>
             <div> SubNav! </div>
+            {/* <div> {`${className}`} </div> */}
             
         </>
     )

@@ -26,9 +26,6 @@ const LinksContainer = styled.div`
 
 // console.log('data', data);
 // const sub = `props.match.params.${Data}`
-    
-
-
 
 function NavParent() {
     // const [DataState] = useState(Data);
@@ -43,8 +40,8 @@ function NavParent() {
 
                 ))} */}
                 <LinksContainer>
-                    <Link style={stylesLinks} to='/apple/' onClick={() => setClose(!close)}><i className="fab fa-apple"></i></Link>
-                    <Link style={stylesLinks} to='/apple/home' onClick={() => console.log('HYPERSHOME')}>Home</Link>
+                    <Link className='HOME' style={stylesLinks} to='/apple/' onClick={() => setClose(!close)}><i className="fab fa-apple"></i></Link>
+                    <Link className='HOME' style={stylesLinks} to='/apple/home' onClick={() => console.log(`HYPERSHOME`)}>Home</Link>
                     <Link style={stylesLinks} to='/apple/mac'>Mac</Link>
                     <Link style={stylesLinks} to='/apple/ipad'>iPad</Link>
                     <Link style={stylesLinks} to='/apple/iphone'>iPhone</Link>

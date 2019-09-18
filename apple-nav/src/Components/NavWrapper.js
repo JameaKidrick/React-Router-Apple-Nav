@@ -27,7 +27,7 @@ function NavWrapper() {
             <div className='parent'> 
                 <NavParent />
                 {/* <Collapse> */}
-                    <SubNav />
+                    {/* <SubNav /> */}
                 {/* </Collapse> */}
             </div>
 
