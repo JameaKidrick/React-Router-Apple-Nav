@@ -1,5 +1,5 @@
 import React from 'react';
-import NavWrapper from '../src/Components/NavWrapper'
+import NavWrapper from './Components/NavWrapper'
 
 function App() {
   return (
