@@ -26,16 +26,16 @@ function NavWrapper() {
         <>
             <div className='parent'> 
                 <NavParent />
-                    <Collapse>
-                        <SubNav />
-                    </Collapse>
+                {/* <Collapse> */}
+                    <SubNav />
+                {/* </Collapse> */}
             </div>
 
             {/* {DataState.map((Data, index) => (
                 <Route key={index} path={`/apple/${Data}`} component={`${Data}`}/>
             ))} */}
 
-            <Route exact path='/apple/' component={Home}/>
+            <Route exact path='/apple/home' component={Home}/>
             <Route path='/apple/mac' component={Mac}/>
             <Route path='/apple/ipad' component={iPad}/>
             <Route path='/apple/iphone' component={iPhone}/>
